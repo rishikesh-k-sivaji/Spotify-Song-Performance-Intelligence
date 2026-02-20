@@ -67,6 +67,7 @@ PCA (Dimensionality Reduction)
 KMeans (Optimal K selected via Silhouette Score)
 Model Performance(clustering):
 Optimal K Selected: 3
-<img src="spotify_images/PCA clustering.png" width="400">
+### Song Segmentation
+<img src="spotify_images/PCA clustering.png" width="600">
 
 
