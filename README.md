@@ -74,4 +74,33 @@ Optimal K Selected: 3
 <img src="spotify_images/PCA clustering.png" width="600">
 
 
+Streamlit App
+=============
+
+The project includes a fully deployed ML interface using Streamlit.
+
+Tabs:
+
+### Flop Prediction
+### Song Segmentation
+
+Users can input:
+
+Audio features
+
+Musical attributes
+
+Language
+
+Year
+
+And instantly get:
+
+Flop probability
+
+Risk classification
+
+Cluster category + interpretation
+
+
 
