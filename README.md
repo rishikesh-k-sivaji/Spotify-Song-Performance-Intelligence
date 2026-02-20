@@ -10,7 +10,7 @@ An end-to-end Machine Learning project that predicts whether a song is likely to
 - Random Forest  
 - KMeans Clustering  
 - PCA (Principal Component Analysis)  
-- Streamlit (Deployment)  
+- Streamlit  
 
 ---
 
