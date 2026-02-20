@@ -80,24 +80,25 @@ Streamlit App
 The project includes a fully deployed ML interface using Streamlit.
 
 Tabs:
- Flop Prediction
+Flop Prediction,
 Song Segmentation
 
 Users can input:
-Audio features
-Musical attributes
-Language
+Audio features,
+Musical attributes,
+Language,
 Year
 
 And instantly get:
-Flop probability
-Risk classification
+Flop probability,
+Risk classification,
 Cluster category + interpretation
 
 Output
 ======
-###Flop Risk High
+###Flop Risk High###
 <img src="spotify_images/flop_pred.png" width="600">
+
 <img src="spotify_images/flop_cluster.png" width="600">
 
 
