@@ -1,38 +1,55 @@
-Spotify Song Performance Intelligence
-=====================================
-An end-to-end Machine Learning project that predicts whether a song is likely to flop and segments songs into musical categories using clustering.
-Built with:
-Scikit-learn
-Random Forest
-KMeans Clustering
-PCA
-Streamlit Deployment
+# 🎵 Spotify Song Performance Intelligence
 
-Project Overview
-================
+An end-to-end Machine Learning project that predicts whether a song is likely to **flop** and segments songs into musical categories using clustering.
+
+---
+
+## Built With
+
+- Scikit-learn  
+- Random Forest  
+- KMeans Clustering  
+- PCA (Principal Component Analysis)  
+- Streamlit (Deployment)  
+
+---
+
+## Project Overview
 
 This project performs two major tasks:
 
-1.Flop Prediction (Supervised Learning) 
-Predicts whether a song is likely to be a flop based on audio features.
-Feature Engineering
-Standard Scaling
-Binary Classification
-Target: flop_class
-Defined as:
+---
+
+### 1. Flop Prediction (Supervised Learning)
+
+Predicts whether a song is likely to be a flop based on its audio features.
+
+**Techniques Used:**
+- Feature Engineering  
+- Standard Scaling  
+- Binary Classification  
+
+**Target Variable:**
+
+```
 flop_class = 1 if popularity < 20 else 0
+```
 
-2.Song Segmentation (Unsupervised Learning)
+---
+
+### 2. Song Segmentation (Unsupervised Learning)
+
 Segments songs into meaningful musical categories using:
-Feature Engineering
-Standard Scaling
-PCA
-KMeans Clustering
 
-Clusters represent different musical styles like:
- High Energy Commercial
- Acoustic / Emotional
- Speech / Niche
+- Feature Engineering  
+- Standard Scaling  
+- PCA  
+- KMeans Clustering  
+
+**Identified Musical Segments:**
+-  High Energy Commercial  
+-  Acoustic / Emotional  
+-  Speech / Niche  
 
  Machine Learning Pipeline
  =========================
@@ -121,7 +138,7 @@ Output
   <img src="spotify_images/flop_cluster.png" width="700"/>
 </p>
 
-###  Likely to Perform Well
+###  Likely To Perform Well:
 <p align="center">
   <img src="spotify_images/success2_pred.png" width="700"/>
 </p>
@@ -134,7 +151,7 @@ Output
   <img src="spotify_images/success_pred.png" width="700"/>
 </p>
 <p align="center">
-  <img src="spotify_images/successkorean_cluster.png" width="700"/>
+  <img src="spotify_images/succeskorean_cluster.png" width="700"/>
 </p>
 
 
