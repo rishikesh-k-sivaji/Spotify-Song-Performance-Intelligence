@@ -51,21 +51,27 @@ Segments songs into meaningful musical categories using:
 -  Acoustic / Emotional  
 -  Speech / Niche  
 
- Machine Learning Pipeline
- =========================
-🔹 Classification Model
-Algorithm: RandomForestClassifier
-Class imbalance handled using class_weight="balanced"
-Hyperparameter tuning using GridSearchCV
-Evaluation metric: ROC-AUC
+##  Machine Learning Pipeline
 
-Preprocessing:
-StandardScaler for numeric features
-OneHotEncoder for language
-ColumnTransformer inside Pipeline
+---
 
-Model Performance(classification):
-## 📊 Classification Report
+###  Classification Model
+
+**Algorithm:** RandomForestClassifier  
+
+**Techniques Used:**
+- Class imbalance handled using `class_weight="balanced"`
+- Hyperparameter tuning with `GridSearchCV`
+- Evaluation metric: **ROC-AUC**
+
+####  Preprocessing
+- StandardScaler for numerical features  
+- OneHotEncoder for categorical feature (language)  
+- ColumnTransformer integrated within a Pipeline  
+
+---
+
+###  Model Performance (Classification)
 
 ```
               precision    recall  f1-score   support
@@ -77,16 +83,21 @@ Model Performance(classification):
    macro avg       0.73      0.71      0.72     12464
 weighted avg       0.76      0.76      0.76     12464
 ```
-Test ROC-AUC Score: 0.8059096639329527
 
-🔹 Clustering Model
+**Test ROC-AUC Score:** `0.806`
 
-StandardScaler
-PCA (Dimensionality Reduction)
-KMeans (Optimal K selected via Silhouette Score)
-Model Performance(clustering):
-Optimal K Selected: 3
+---
 
+### Clustering Model
+
+**Techniques Used:**
+- StandardScaler  
+- PCA (Dimensionality Reduction)  
+- KMeans Clustering  
+
+### Model Performance (Clustering)
+
+- **Optimal K Selected:** 3  
 ##  Song Segmentation (Clustering Insights)
 Songs were segmented into 3 clusters using PCA + KMeans:
 
