@@ -96,10 +96,15 @@ Cluster category + interpretation
 
 Output
 ======
-###Flop Risk High###
-<img src="spotify_images/flop_pred.png" width="600">
+###  Flop Risk: High
 
-<img src="spotify_images/flop_cluster.png" width="600">
+<p align="center">
+  <img src="spotify_images/flop_pred.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="spotify_images/flop_cluster.png" width="600"/>
+</p>
 
 
 
