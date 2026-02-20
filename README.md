@@ -114,13 +114,27 @@ Output
 ###  Flop Risk: High
 
 <p align="center">
-  <img src="spotify_images/flop_pred.png" width="600"/>
+  <img src="spotify_images/flop_pred.png" width="700"/>
 </p>
 
 <p align="center">
-  <img src="spotify_images/flop_cluster.png" width="600"/>
+  <img src="spotify_images/flop_cluster.png" width="700"/>
 </p>
 
+###  Likely to Perform Well
+<p align="center">
+  <img src="spotify_images/success2_pred.png" width="700"/>
+</p>
 
+<p align="center">
+  <img src="spotify_images/success2_cluster1.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="spotify_images/success_pred.png" width="700"/>
+</p>
+<p align="center">
+  <img src="spotify_images/successkorean_cluster.png" width="700"/>
+</p>
 
 
