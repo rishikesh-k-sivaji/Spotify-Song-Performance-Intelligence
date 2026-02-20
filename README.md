@@ -48,8 +48,9 @@ OneHotEncoder for language
 ColumnTransformer inside Pipeline
 
 Model Performance(classification):
-Classification Report:
+## 📊 Classification Report
 
+```
               precision    recall  f1-score   support
 
            0       0.66      0.55      0.60      4012
@@ -58,16 +59,19 @@ Classification Report:
     accuracy                           0.76     12464
    macro avg       0.73      0.71      0.72     12464
 weighted avg       0.76      0.76      0.76     12464
-
+```
 Test ROC-AUC Score: 0.8059096639329527
 
 🔹 Clustering Model
+
 StandardScaler
 PCA (Dimensionality Reduction)
 KMeans (Optimal K selected via Silhouette Score)
 Model Performance(clustering):
 Optimal K Selected: 3
+
 ### Song Segmentation
 <img src="spotify_images/PCA clustering.png" width="600">
+
 
 
