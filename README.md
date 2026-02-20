@@ -70,6 +70,21 @@ KMeans (Optimal K selected via Silhouette Score)
 Model Performance(clustering):
 Optimal K Selected: 3
 
+##  Song Segmentation (Clustering Insights)
+Songs were segmented into 3 clusters using PCA + KMeans:
+
+### Cluster 0 – Commercial / High Energy
+**Popularity:** Highest  
+High energy, danceable, loud tracks with strong mainstream appeal.
+
+###  Cluster 1 – Acoustic / Emotional
+**Popularity:** Medium  
+More acoustic and softer tracks, often emotional or indie in style.
+
+###  Cluster 2 – Speech / Niche
+**Popularity:** Very Low  
+High speech content, spoken-word or niche tracks with higher flop risk.
+
 ### Song Segmentation
 <img src="spotify_images/PCA clustering.png" width="600">
 
